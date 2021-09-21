@@ -16,7 +16,8 @@ const OrderStyles = styled.form`
         }
     }
     @media (max-width: 900px) {
-        fieldset.menu, fieldset.order {
+        fieldset.menu, 
+        fieldset.order {
             grid-column: span 2;
         }
     }

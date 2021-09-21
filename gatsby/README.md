@@ -91,6 +91,14 @@ Step 42. Deploy sanity cms to a backend service, you can host sanity cms on sani
 Step 43. Sanity will give you a url, in this projects case it is --- https://slickssliceskelvin.sanity.studio/
 
 Step 44. Use the GRAPHQL endpoint and fetch to fetch resources to be uploaded on the page dynamically
+
+Step 45. when you are ready to deploy to netlify, connect the repo to netlify for continuos development. 
+
+Step 46. Add environment variables to netlify
+
+Step 47. Create a webhook from sanity to netlify so that sanity can send any cms changes to netlify and that will trigger a redeploy 
+
+Step 48. To create a sanity hook, on the terminal in the sanity folder type-------> sanity hook create , name it and connect it to the dataset that is being used and add the hook url from netlify
 *****
 Api or Web Components
 *****
